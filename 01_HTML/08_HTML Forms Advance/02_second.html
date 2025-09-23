@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+         <from action="url_server">
+
+             <fieldset>
+
+                   <legend>IT JEE Registeration form</legend>
+
+            <!-- full name -->
+             <label for="name">Full Name:</label>
+             <input type="text" id="name" name="fname">
+             <br><br>
+             <!-- email -->
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+               <br><br>
+
+             <!-- phone -->
+              <label for="contact">Phone:</label>
+             <input type="tel" id="contact" name="phone">
+             <br><br>
+
+             <!-- password -->
+              <label for="pass">Password:</label>
+              <input type="password" name="pass" id="pass">
+              <br><br>
+
+              <!-- Gender -->
+              <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">other</label>
+        <br>
+        <br>
+              <!-- DOB -->
+               <label for="date">Date of Birth :</label>
+               <input type="date" id="date" name="DOB" min="2001-01-01" max="2005-12-31" >
+                <br><br>
+              <!-- School Name -->
+               <label for="school">School:</label>
+               <input type="text" id="school" name="school">
+               <br><br>
+
+               <!-- Broard -->
+                <label for="board">Board:</label>
+                <select name="Board" id="board">
+                <option value=""  disabled selected>Select your Board</option>
+                <option value="CBSE">CBSE</option>
+                <option value="BSEB">BSEB</option>
+                <option value="ICSE">ICSE</option>
+                <option value="UP">UP</option>
+                  </select>
+                  <br><br>
+                <!-- Year of passing -->
+                 <label for="year">Year Of Passing</label>
+                 <input type="number" id="year" name="Year" min="2023" max="2025">
+                <br><br>
+                 <!-- Exam Center -->
+                  <label for="centre"  >Exam Center:</label>
+                  <select name="Center" id="centre">
+                    <option value="" disabled selected>Select Exam Center</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Dehradun">Dehradun</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                  </select>
+                  <br><br>
+                  
+                  <!-- Register -->
+                  <button>Register</button>
+
+                </fieldset>
+         </from>
+
+
+</body>
+</html>
