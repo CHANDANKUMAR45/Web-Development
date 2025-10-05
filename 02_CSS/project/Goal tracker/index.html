@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Writing Goal Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Writing Goal Tracker</h1>
+  </header>
+  
+  <main>
+    <!-- Goal Tracker Section -->
+    <section id="goal-tracker">
+      <h2>Set Your Writing Goal</h2>
+      <input type="number" id="daily-goal" placeholder="Enter word count goal">
+      <button id="set-goal">Set Goal</button>
+      <div id="goal-progress">
+        <p>Today's Goal: <span id="goal">0</span> words</p>
+        <p>Words Written: <span id="progress">0</span></p>
+        <button id="update-progress">Update Progress</button>
+      </div>
+    </section>
+
+    <!-- Calendar Planner Section -->
+    <section id="calendar-planner">
+      <h2>Calendar Planner</h2>
+      <div id="calendar"></div>
+      <button id="add-event">Add Event</button>
+    </section>
+
+    <!-- Mind Map Creator Section -->
+    <section id="mind-map">
+      <h2>Mind Map Creator</h2>
+      <canvas id="mind-map-canvas" width="800" height="400"></canvas>
+      <button id="add-node">Add Node</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
