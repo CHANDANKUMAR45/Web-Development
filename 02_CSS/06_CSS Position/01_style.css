@@ -1,0 +1,43 @@
+.container{
+    background-color:antiquewhite;
+   
+    margin-left: 200px;
+    margin-top: 150px;
+    height: 1000px;
+ 
+
+}
+
+.box{
+    
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.box1{
+    background-color: brown;
+}
+
+.box2{
+    background-color: blue;
+    position: fixed;
+    top: 10px;
+    /* position: relative;
+    top: 10px;
+    left: 20px; */
+   
+}
+/* top bottom left right */
+/* statics by deafult */
+/*  relative*/
+/* absolute */
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: orange;
+}
